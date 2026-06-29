@@ -1,0 +1,311 @@
+.nav_div{
+    background-color: #2923ea;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+}
+
+.nav_a{
+    padding-right: 6em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.body{
+
+    max-width: 80w;
+    margin: auto;
+    padding-top: 2.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    background-image: url("../img/blue_background.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.nav_pad{
+    padding-left: 1em;
+}
+
+#h1_pad{
+    padding-left: 2em;
+}
+
+.ad_pad{
+    padding-left: 1.5em;
+}
+
+
+
+.h1_welcome{
+    color: white;
+    font-size: 70px;
+    padding-top: 18vh;
+}
+
+#my_name{
+    color: #5899d6;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 1.3em;
+
+
+}
+
+#footer_div{
+    padding-top: 5em;
+
+
+}
+
+#table_id{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img_logo{
+    padding-right: 50px;
+}
+
+#handle_id{
+    padding-right: 50px;
+    
+}
+
+.body_about{
+    text-align: center;
+}
+
+.nav_about{
+    background-color: #c2b52d;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    /* padding: 0.1em; */
+    padding-top: 1.em;
+    padding-bottom: 0.75em;
+}
+
+.div1_about{
+    float: left;
+    width: 88vh;
+    padding-bottom: 10px;
+    margin-top: 6;
+
+}
+
+.div2_about{
+    margin-right: 5px;
+    padding-top: 7em;
+    color: #c2b52d;
+}
+
+#profile_img{
+    height: 100vh;
+}
+
+#about_p{
+    font-size: 3em;
+    text-align: center;
+}
+
+#about_details{
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.body_project{
+    text-align: center;
+}
+
+.row{
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    margin-top: 8em;
+}
+
+.project_info{
+    color: #c2b52d;
+    font-size: large;
+}
+
+.column2{
+    float: left;
+    width: 33.33%;
+    margin-top: 2em;
+}
+
+/* #myVideo{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    
+} */
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.nav_game{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    /* padding: 0.1em; */
+    padding-top: 3.5em;
+    padding-bottom: 1.5em;
+}
+
+#top_games{
+    position: fixed;
+    top: 45%;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+}
+
+#footer_game{
+    position: fixed;
+    bottom: 2%;
+    width: 100%;
+    color: #fff;
+    font-size: 1.3em;
+
+}
+
+.games_link{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+#top_content{
+    position: fixed;
+    top: 20%;
+    width: 100%;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+/* padding: top right bottom left */
+
+.form_text{
+    
+    font-size: 15px;
+    padding: 15px 0 15px 15px;
+    margin-bottom: 10px;
+    resize: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#form{
+    position: fixed;
+    top: 30%;
+    width: 100%;
+    color: white;
+}
+
+#submit_button{
+    width: 100%;
+    background-color: #c2b52d;
+    color: #fff;
+    height: 35px;
+    width: 200px;
+    border: none;
+    margin-top: 20px;
+}
+
+#copyright{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    color: #fff;
+}
+
+
+
+.topnav {
+    display: none;
+    position: relative;
+    background-color: #333;
+ }
+
+ .topnav #myLinks {
+    display: none;
+ }
+
+ .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+ }
+
+ .topnav a.icon {
+
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+ }
+
+ .icon_back{
+    color: #c2b52d !important;
+ }
+
+
+
+@media screen and (max-width: 890px){
+    .topnav {
+        display: block;
+    }
+
+    .nav_div{
+        display: none;
+    }
+    .nav_about{
+        display: none;
+    }
+    #footer{
+        display: none;
+    }
+    #profile_img{
+        width: 110%;
+        height: auto;
+        background-color: #333;
+    }
+    .nav_games{
+        display: none;
+    }
+}

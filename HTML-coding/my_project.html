@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+<!--This is where my Header starts-->
+
+<head>
+
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        David's Project
+    </title>
+
+</head>
+
+<body class="body_project">
+
+    <div class="nav_about">
+
+        
+        <nav class="nav_pad">
+            <a href="index.html" class="nav_a">Home</a>
+            <a href="about_me.html" class="nav_a">About Me</a>
+            <a href="my_project.html" class="nav_a">My Project</a>
+            <a href="my_games.html" class="nav_a">Video Games</a>
+            <a href="contact_me.html" class="nav_a">Contact Me</a>
+        </nav>
+
+    </div>
+
+    <!-- Top Navigation Menu-->
+    <div class="topnav">
+        <div id="myLinks">
+            <a href="index.html" class="nav_a">Home</a>
+            <a href="about_me.html" class="nav_a">About Me</a>
+            <a href="my_project.html" class="nav_a">My Project</a>
+            <a href="my_games.html" class="nav_a">Video Games</a>
+            <a href="contact_me.html" class="nav_a">Contact Me</a>
+        </div>
+
+        <a href="javascirpt:void(0);" class="icon icon_back" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="row">
+
+        <div class="column">
+            <img src="img/project1.jpg" width="50%" alt="project 1 image">
+            <p class="project_info">This is my first project</p>
+        </div>
+
+        <div class="column">
+            <img src="img/project2.jpg" width="70%" alt="project 2 image">
+            <p class="project_info">This is my second project</p>
+        </div>
+
+        <div class="column">
+            <img src="img/project3.jpg" width="50%" alt="project 3 image">
+            <p class="project_info">This is my third project</p>
+        </div>
+    </div>
+
+<div class="row">
+
+        <div class="column2">
+            <img src="img/project4.jpg" width="50%" alt="project 4 image">
+            <p class="project_info">This is my fourth project</p>
+        </div>
+
+        <div class="column2">
+            <img src="img/project5.jpg" width="33%" alt="project 5 image">
+            <p class="project_info">This is my fifth project</p>
+        </div>
+
+        <div class="column2">
+            <img src="img/project6.jpg" width="50%" alt="project 6 image">
+            <p class="project_info">This is my sixth project</p>
+        </div>
+    </div>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+
+
+</html>
