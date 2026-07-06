@@ -87,7 +87,11 @@
 }
 
 .nav_about{
+<<<<<<< HEAD
     background-color: #c2b52d;
+=======
+    background-color: #2923ea;
+>>>>>>> f5a6eaf (updated files 2)
 
     position: fixed;
     top: 0;
@@ -110,7 +114,11 @@
 .div2_about{
     margin-right: 5px;
     padding-top: 7em;
+<<<<<<< HEAD
     color: #c2b52d;
+=======
+    color: #2923ea;
+>>>>>>> f5a6eaf (updated files 2)
 }
 
 #profile_img{
